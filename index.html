@@ -1,7 +1,19 @@
-<!DOCTYPE html>
+<!-- Replace your-device-ID-goes-here with your actual device ID
+and replace your-access-token-goes-here with your actual access token-->
+<!DOCTYPE>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <body>
+  <center>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/37003b001047353136383631/led?access_token=15e70380af758a9723230f300717abc2a9ccaed3" method="POST" target="_self">
+    Mess with Meme's lights<br>
+    <br>
+    <button name="arg" type="submit" value="on">Turn the light on.</button>
+    <br>
+    <button type="submit" name="arg" value="off">Turn the light off.</button>
+  </form>
+  </center>
+  </body>
 </html>
